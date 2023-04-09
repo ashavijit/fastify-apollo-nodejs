@@ -23,3 +23,4 @@ const connect = async ( fastify , options ) => {
 }
 
 export default fp(connect);
+

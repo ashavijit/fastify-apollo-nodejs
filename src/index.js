@@ -22,8 +22,6 @@ app.register(mercurius, {
     graphiql: 'graphiql',
 
 });
- 
-
 app.listen(PORT, (err, address) => {
     if (err) {
         app.log.error(err);
