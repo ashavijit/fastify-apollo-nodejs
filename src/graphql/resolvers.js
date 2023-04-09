@@ -7,7 +7,7 @@ const resolvers = {
         },
         post: async (_, obj) => {
             const { id } = obj;
-            const post = await Post.findById(id);
+            const post = await Post.findById(id); 
             return post;
         }
     },
